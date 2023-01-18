@@ -54,7 +54,7 @@ export default function Home({ kategori, url }) {
           <div className="container-fluid">
             <div className="row">
               {kategori.data.attributes.kangfotos.data.map((item, index) => {
-                // console.log(item.attributes.foto.data.attributes.url);
+                // console.log(item.attributes.foto);
                 return (
                   <div className="col-md-6">
                     <div>
